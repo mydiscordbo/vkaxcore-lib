@@ -23,5 +23,5 @@ deploy:
     skip_cleanup: true
     script: npm publish
     on:
-      repo: dashevo/dashcore-lib
+      repo: vkaxevo/vkaxcore-lib
       branch: master
