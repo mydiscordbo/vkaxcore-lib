@@ -3,10 +3,10 @@
 
 var expect = require('chai').expect;
 var sinon = require('sinon');
-var DashcoreLib = require('../../..');
+var VkaxcoreLib = require('../../..');
 
-var BufferUtil = DashcoreLib.util.buffer;
-var Payload = DashcoreLib.Transaction.Payload;
+var BufferUtil = VkaxcoreLib.util.buffer;
+var Payload = VkaxcoreLib.Transaction.Payload;
 var ProUpRevTxPayload = Payload.ProUpRevTxPayload;
 
 var validProUpRevTxPayloadJSON = {

@@ -4,9 +4,9 @@
 var expect = require('chai').expect;
 var sinon = require('sinon');
 
-var DashcoreLib = require('../../../index');
+var VkaxcoreLib = require('../../../index');
 
-var CoinbasePayload = DashcoreLib.Transaction.Payload.CoinbasePayload;
+var CoinbasePayload = VkaxcoreLib.Transaction.Payload.CoinbasePayload;
 
 var merkleRootMNList = 'e83c76065797d4542f1cd02e00d02093bea6fb53f5ad6aaa160fd3ccb30001b9';
 

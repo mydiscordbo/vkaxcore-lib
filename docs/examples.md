@@ -1,4 +1,4 @@
-# Dashcore examples
+# Vkaxcore examples
 
 
 ## Create and Save a Private Key

@@ -4,10 +4,10 @@
 var expect = require('chai').expect;
 var sinon = require('sinon');
 
-var DashcoreLib = require('../../../index');
+var VkaxcoreLib = require('../../../index');
 
-var Script = DashcoreLib.Script;
-var CommitmentTxPayload = DashcoreLib.Transaction.Payload.CommitmentTxPayload;
+var Script = VkaxcoreLib.Script;
+var CommitmentTxPayload = VkaxcoreLib.Transaction.Payload.CommitmentTxPayload;
 
 var validCommitmentTxPayloadJSON = {
   version: 1,

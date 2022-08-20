@@ -15,16 +15,16 @@ const commonJSConfig = {
 const rawConfig = Object.assign({}, commonJSConfig, {
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'dashcore-lib.js',
-    library: 'dashcore',
+    filename: 'vkaxcore-lib.js',
+    library: 'vkaxcore',
     libraryTarget: 'umd',
   }
 })
 const uglifiedConfig = Object.assign({}, commonJSConfig, {
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'dashcore-lib.min.js',
-    library: 'dashcore',
+    filename: 'vkaxcore-lib.min.js',
+    library: 'vkaxcore',
     libraryTarget: 'umd',
   },
   plugins: [

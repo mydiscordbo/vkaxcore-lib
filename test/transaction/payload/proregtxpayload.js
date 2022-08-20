@@ -4,10 +4,10 @@
 var expect = require('chai').expect;
 var sinon = require('sinon');
 
-var DashcoreLib = require('../../../index');
+var VkaxcoreLib = require('../../../index');
 
-var Script = DashcoreLib.Script;
-var ProRegTxPayload = DashcoreLib.Transaction.Payload.ProRegTxPayload;
+var Script = VkaxcoreLib.Script;
+var ProRegTxPayload = VkaxcoreLib.Transaction.Payload.ProRegTxPayload;
 
 /*
 var validProRegTxPayloadJSON = {
